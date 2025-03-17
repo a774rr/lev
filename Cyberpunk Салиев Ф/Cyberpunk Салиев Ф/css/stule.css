@@ -1,0 +1,487 @@
+.background {
+    background-image: url(/img/background1.png);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease-in-out;
+
+}
+.color_text {
+    color: rgb(218, 215, 212);
+}
+
+header {
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+
+.logo {
+    top: 10px;
+    left: 296px; 
+    position: absolute;
+}
+
+#title_tabs div {
+    left: 1221px;
+    display: inline-block;
+    padding: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Yellow_Button {
+    position: absolute; 
+    left: 976px;
+    top: 582px;
+
+}
+
+.button_yel {
+    position: absolute; 
+    left: 1046px;
+    top: 780px;
+    cursor: pointer;
+}
+
+.Yellow_Button_Text {
+    position: absolute;
+    font-family: ah;
+    font-weight: 10;
+    font-size: 55px;
+    left: 1046px;
+    top: 600px;
+}
+
+
+.bgpg2 {
+    position: absolute;
+    left: 0px;
+    top: 1000px;
+}
+
+.NS {
+    position: absolute;
+    font-family: ah;
+    font-weight: 10;
+    font-size: 55px;
+    left: 320px;
+    top: 1070px; 
+}
+
+.Cb2077 {
+    position: absolute;
+    font-family: roboto;
+    font-size: 18px;
+    left: 320px;
+    top: 1158px; 
+}
+
+.card1 {
+    position: absolute;
+    left: 320px;
+    top: 1353px;
+}
+
+.card2 {
+    position: absolute;
+    left: 320px;
+    top: 1581px;
+}
+
+.card3 {
+    position: absolute;
+    left: 812px;
+    top: 1353px;
+}
+
+.line {
+    position: absolute;
+    top: 1847px;
+    left: 0;
+}
+
+.pgbg3 {
+    position: absolute;
+    left: 0;
+    top: 1917px;
+}
+
+.akcia {
+    position: absolute;
+    left: 320px;
+    top: 1932px;
+}
+.text_win {
+    position: absolute;
+    left: 484px;
+    top: 1987px;
+    font-family: ah;
+    font-size: 62px;
+    color: aliceblue;
+
+}
+
+.text_game {
+    position: absolute;
+    color: aliceblue;
+    font-family: roboto;
+    font-size: 18px;
+    left: 320px;
+    top: 2089px;
+}
+
+.xboxisony {
+    position: absolute;
+    left: 812px;
+    top: 2205px;
+}
+
+.text_name {
+    position: absolute;
+    top: 2278px;
+    left: 320px;
+}
+
+.text_email {
+    position: absolute;
+    top: 2348px;
+    left: 320px;
+}
+
+input[type="text"] {
+    width: 460px;
+    height: 50px;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-bottom-width: 1px;
+    font-size: 18px;
+    font-family: roboto;
+    border-color: rgb(156, 156, 156);
+    background: transparent;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input::placeholder {
+     color: rgb(255, 255, 255);
+}
+
+input, select, textarea{
+    color: #ffffff;
+}
+
+.screen {
+    position: absolute;
+    left: 320px;
+    top: 2450px;
+    cursor: pointer;
+}
+
+.otp {
+    position: absolute;
+    left: 320px;
+    top: 2600px;
+    cursor: pointer;
+}
+
+.check {
+    position: absolute;
+    top: 2680px;
+    left: 315px;
+}
+
+
+.checkbox {
+    display: none;
+}
+
+.box {  
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid rgb(156, 156, 156);
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-image: url(/img/check.png);
+    background-repeat: no-repeat;
+    background-position: 0%;
+    top: 41%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: .5s;
+}
+
+.checkbox:checked + .box::before {
+    opacity: 1;
+}
+
+.text_porsonal {
+    top: 2682px;
+    left: 340px;
+    position: absolute;
+    color: white;
+    font-family: roboto;
+    font-size: 12px;
+
+}
+
+.line2 {
+    position: absolute;
+    left: 0;
+    top: 2731px;
+}
+
+.pgbg4 {
+    position: absolute;
+    left: 0px;
+    top: 2801px;
+}
+
+.monik {
+    position: absolute;
+    left: 320px;
+    top: 2871px;
+}
+
+.hpxcyber {
+    position: absolute;
+    left: 362px;
+    top: 3327px;
+}
+
+.polniipogruz {
+    position: absolute;
+    top: 2871px;
+    left: 976px;
+}
+
+.text_pogruz {
+    font-family: ah;
+    font-size: 62px;
+    font-weight: 1;
+}
+
+.soveks {
+    position: absolute;
+    left: 976px;
+    top: 3022px;
+}
+
+.text_soveks {
+    font-family: roboto;
+    font-size: 18px;
+    font-weight: -1;
+}
+
+.palitra {
+    position: absolute;
+    left: 976px;
+    top: 3172px;
+}
+
+.text_palitra {
+    position: absolute;
+    left: 1018px;
+    top: 3146px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.zvezda {
+    position: absolute;
+    left: 976px;
+    top: 3219px;
+}
+
+.text_zvezda {
+    position: absolute;
+    left: 1018px;
+    top: 3196px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.kubiki {
+    position: absolute;
+    left: 976px;
+    top: 3266px;
+}
+
+.text_kubiki {
+    position: absolute;
+    left: 1018px;
+    top: 3241px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.podrobnee {
+    position: absolute;
+    left: 976px;
+    top: 3338px;
+    cursor: pointer;
+}
+
+.bgright {
+    position: absolute;
+    left: 944px;
+    top: 3477px;
+}
+
+.bgleft {
+    position: absolute;
+    left: 0px;
+    top: 3477px;
+}
+
+.buy {
+    position: absolute;
+    left: 976px;
+    top: 3547px;
+}
+
+.text_buy {
+    color: white;
+    font-family: ah;
+    font-size: 62px;
+    font-weight: 1;
+}
+
+.komplekt {
+    position: absolute;
+    left: 976px;
+    top: 3698px;
+}
+
+.text_komplekt {
+    font-family: roboto;
+    color: #3abfe8;
+    font-size: 24px;
+}
+
+.disk {
+    position: absolute;
+    top: 3780px;
+    left: 974px;
+}
+
+.text_disk {
+    position: absolute;
+    top: 3755px;
+    left: 1015px;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.list {
+    position: absolute;
+    top: 3830px;
+    left: 974px;
+}
+
+.text_list {
+    position: absolute;
+    top: 3805px;
+    left: 1015px;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.fotka {
+    position: absolute;
+    top: 3880px;
+    left: 974px;
+}
+
+.text_fotka {
+    position: absolute;
+    top: 3854px;
+    left: 1015px;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.platforma {
+    position: absolute;
+    left: 976px;
+    top: 3937px;
+    color: #3abfe8;
+    font-family: roboto;
+    font-size: 24px;
+}
+
+.platf {
+    position: absolute;
+    left: 976px;
+    top: 4020px;
+}
+
+.line6 {
+    position: absolute;
+    left: 0px;
+    top: 4194px;
+}
+
+.logoendc {
+    position: absolute;
+    left: 320px;
+    top: 4207px;
+}
+
+.logocd {
+    position: absolute;
+    left: 648px;
+    top: 4207px;
+}
+
+.license_text {
+    position: absolute;
+    left: 1211px;
+    top: 4198px;
+    font-family: roboto;
+    font-size: 18px;
+
+}
+
+.polit_text {
+    position: absolute;
+    left: 1327px;
+    top: 4198px;
+    font-family: roboto;
+    font-size: 18px;
+}
+
+.line7 {
+    position: absolute;
+    left: 0px;
+    top: 4294px;
+}
+
+.cdpj_text {
+    color: white;
+    position: absolute;
+    left: 834px;
+    top: 4280px;
+    font-family: roboto;
+    font-size: 12px;
+}
+
